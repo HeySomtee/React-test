@@ -1,0 +1,147 @@
+body{
+  margin: 0%;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.rxxt{
+  display: flex;
+}
+
+.left-main{
+  width: 20vw;
+  height: 100vh;
+  background-color: #00152F;
+}
+
+.main-body{
+  background-color: #e6edfd;
+  width: 80vw;
+  height: 100vh;
+ overflow-y: scroll;
+ overflow-x: hidden;
+
+}
+
+ul{
+  margin-top: 0vh;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 13vw;
+  padding: 10px;
+
+}
+
+header{
+  background: #c8d9f5;
+}
+
+.sub-header{
+  height: 10vh;
+  display: flex;
+  background:  #e6edfd;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border-bottom: 2.5px solid #c8d9f5;
+}
+
+.menu-text{
+  display: grid;
+  place-content: center;
+  margin-top: -3vh;
+}
+
+.menu-text span{
+  margin-top: -1vh;
+}
+
+.menu-icons{
+  display: flex;
+  width: 26vw;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  /* place-content: center; */
+}
+
+.menu-icons input{
+  height: 6vh;
+  width: 16vw;
+  float: left;
+  border: 2px solid #c8d9f5 ;
+  border-radius: 0px;
+}
+
+input::placeholder{
+  color: #686894;
+}
+
+.propmt-div{
+  text-align: center;
+}
+
+.propmt-div button{
+  background-color: #226bc5d5;
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+}
+
+#mainTable{
+  width: 80vw;
+}
+
+
+
+table, th, td {
+  border: 1px solid #808ea359;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.indexer{
+  width: 2vw;
+}
+
+.right-main{
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 20vw;
+  height: 100vh;
+  background-color: white;
+
+}
+/* right-main */
+.item-div{
+  height: 20vh;
+  padding-bottom: 5vh;
+  display: grid;
+  place-content: center;
+  border-top: 1px rgba(0, 0, 0, 0.2) solid;
+  border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+  margin-bottom: 70px;
+}
+
+.item-div input{
+  height: 10vh;
+  width: 17vw;
+  opacity: 0.5;
+  /* border-radius: 5px; */
+  
+}
+
+.right-sub div{
+  width: 20vw;
+  padding: 10px;
+  /* border-top: 1px rgba(0, 0, 0, 0.1) solid; */
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.right-sub span{
+  position: absolute;
+  right: 0;
+  margin-right: 14.5px;
+  transform: rotate(90deg);
+}
